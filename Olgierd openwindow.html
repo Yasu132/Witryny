@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wylandowski Olgierd</title>
+    <script>
+      // Funkcja otwierająca nowe okno
+        function Link() {
+            window.open("https://www.youtube.com/@BlopMinecraft");
+        }
+      // Funkcja zadajaca pytanie
+        function pytanie() {
+            alert("To jest trudne pytanie!");
+            const userResponse = confirm("Czy napewno chcesz kontynuować?");
+            if (userResponse) {
+                const odpowiedz = prompt("Co powiedziala Krowa do Kardioologa:");
+                if (odpowiedz) {
+                    alert( odpowiedz + "?");
+                    if (userResponse) {
+                    alert("moooooooooo, krowy nie umia mówić");
+                    }
+                } else {
+                    alert("moooooooooo, krowy nie umia mówić");
+                }
+            } else {
+                alert("moooooooooo, krowy nie umia mówić");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Wylandowski Olgierd</h1>
+    <button onclick="pytanie()">Pokaz pytanie</button>
+    <button onclick="Link()">Obejrz sobie fajny filmik</button>
+    <!-- 
+        Autor: Olgierd Wylandowski 3F
+    -->
+</body>
+</html>
